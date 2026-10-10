@@ -17,5 +17,9 @@
       "sensitive": true
     }
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "icon": "./icon.png",
+  "privacyPolicyUrl": "https://klisten.co.kr/privacy.html",
+  "termsOfServiceUrl": "https://klisten.co.kr/terms.html",
+  "documentationUrl": "https://klisten.co.kr/docs.html"
 }
