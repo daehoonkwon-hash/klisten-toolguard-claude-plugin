@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "toolguard": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/toolguard",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}

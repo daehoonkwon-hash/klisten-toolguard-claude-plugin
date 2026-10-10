@@ -1,0 +1,21 @@
+{
+  "name": "klisten-toolguard",
+  "version": "0.1.0",
+  "description": "Check a registered MCP tool against an existing ToolGuard policy and retrieve attestations. Limited beta; does not execute tools or guarantee safety.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com",
+    "url": "https://klisten.co.kr"
+  },
+  "homepage": "https://klisten.co.kr/docs.html",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Klisten API key",
+      "description": "Your own key with gate:check and/or attestations:read. Gate calls may debit your existing prepaid balance.",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "license": "UNLICENSED"
+}
